@@ -14,7 +14,7 @@
 	<name>booking</name>
 	<description>Hotel booking system for Spring Boot</description>
 	<properties>
-		<java.version>23</java.version> <!-- Matches your build environment -->
+		<java.version>21</java.version> <!-- Matches your build environment -->
 	</properties>
 	<dependencies>
 		<dependency>

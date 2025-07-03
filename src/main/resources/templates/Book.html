@@ -12,6 +12,9 @@
   <div>
     <label>Room:</label>
     <select name="roomId" required>
+      <option value="1">Executive</option>
+      <option value="2">Deluxe</option>
+      <option value="3">Standard</option>
       <option th:each="room : ${rooms}" th:value="${room.id}" th:text="${room.name}"></option>
     </select>
   </div>
